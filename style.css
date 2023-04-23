@@ -155,12 +155,3 @@ body {
 .task_editable .task__label {
   display: none;
 }
-
-.editMode .task__input {
-  display: inline-block;
-  width: 224px;
-}
-
-.editMode .task__label {
-  display: none;
-}
