@@ -19,7 +19,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .about {
     text-align: center;
   }
