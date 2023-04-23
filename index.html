@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <title>Todo App</title>
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">
@@ -9,12 +10,12 @@
 
 <body class="body">
   <main class="main">
-    <section class="about">
+    <div class="about">
       <img class="about__pic" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
       <a class="about__link"
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </section>
-    <section class="main-container">
+    </div>
+    <div class="main-container">
       <label class="new-task__heading" for="new-task">Add Item</label>
       <div class="new-task__row">
         <input class="new-task__input" id="new-task" type="text">
@@ -50,7 +51,7 @@
             <img class="task__button_icon" src="./remove.svg" alt=""></button>
         </li>
       </ul>
-    </section>
+    </div>
   </main>
   <script src="./app.js"></script>
 </body>
